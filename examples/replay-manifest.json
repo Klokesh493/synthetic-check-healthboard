@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Demo 1",
+    "args": [
+      "synthetic_healthboard.py",
+      "sample_checks.csv"
+    ],
+    "expected": "examples/Demo 1.stdout.txt"
+  },
+  {
+    "name": "Last sample record in isolation",
+    "args": [
+      "synthetic_healthboard.py",
+      "examples/last-record.csv"
+    ],
+    "expected": "examples/Last sample record in isolation.stdout.txt"
+  }
+]
