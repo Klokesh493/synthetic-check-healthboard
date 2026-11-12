@@ -4,11 +4,14 @@ Summarizes synthetic check pass rates and highlights degraded journeys.
 
 ```mermaid
 flowchart LR
-    N0["sample_checks.csv"]
-    N1["synthetic_healthboard.py"]
-    N2["summarize / degraded"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Synthetic results CSV"]
+    B["Group by journey and calculate pass rates"]
+    C{"Pass rate below threshold?"}
+    D["List degraded journey"]
+    E["Omit healthy journey"]
+    A --> B --> C
+    C -->|Yes| D
+    C -->|No| E
 ```
 
 ## Operational boundaries
