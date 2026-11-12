@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Summarizes synthetic check pass rates and highlights degraded journeys.
+A noisy synthetic check stream can hide a degraded user journey. Operators need a pass rate grouped by journey.
 
 ## Reproduce the workflow
 
