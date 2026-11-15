@@ -2,6 +2,8 @@
 
 A noisy synthetic check stream can hide a degraded user journey. Operators need a pass rate grouped by journey.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a synthetic monitoring summary that groups results by user journey and flags pass rates below 95%. This makes a failing journey visible even if other checks are healthy.
